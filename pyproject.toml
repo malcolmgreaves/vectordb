@@ -77,9 +77,9 @@ xfail_strict = true
 fix = true
 ignore-init-module-imports = true
 line-length = 120
-select = ["A", "ASYNC", "B", "BLE", "C4", "C90", "D", "DTZ", "E", "EM", "ERA", "F", "FLY", "G", "I", "ICN", "INP", "ISC", "N", "NPY", "PGH", "PIE", "PLC", "PLE", "PLR", "PLW", "PT", "PTH", "PYI", "RET", "RSE", "RUF", "S", "SIM", "SLF", "T10", "T20", "TCH", "TID", "TRY", "UP", "W", "YTT"]
-ignore = ["E501", "PGH001", "RET504", "S101"]
-unfixable = ["ERA001", "F401", "F841", "T201", "T203"]
+select = ["A", "ASYNC", "B", "BLE", "C4", "C90", "D", "DTZ", "E", "EM", "ERA", "F", "FLY", "G", "I", "ICN", "INP", "ISC", "N", "NPY", "PGH", "PIE", "PLC", "PLE", "PLW", "PT", "PTH", "PYI", "RET", "RSE", "RUF", "S", "SIM", "SLF", "T10", "T20", "TCH", "TID", "TRY", "UP", "W", "YTT"]
+ignore = ["E501", "PGH001", "RET504", "S101", "T201", "PLR2004", "N801", "D105", "D401", "PGH003"]
+unfixable = ["ERA001", "F401", "F841", "T203"]
 src = ["src", "tests"]
 target-version = "py38"
 
